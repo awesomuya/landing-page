@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+
+.parent1 {
+  background-color: #1f2937;
+  padding: 15px; /* Add padding for spacing */
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column; /* Stack the items vertically on small screens */
+  align-items: center; /* Center horizontally */
+  color: white;
+}
+
+.header1 {
+  text-align: center; /* Center the header text */
+}
+
+.item1 {
+  background-color: rgb(162, 162, 162);
+  margin-top: 20px; /* Add space between the image placeholder and the header text */
+  height: 150px;
+  width: 200px;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* Center the navigation links horizontally */
+  margin-top: 20px; /* Add space between the navigation and header text */
+}
+
+.navbar li {
+  margin: 0 20px; /* Add space between the navigation links */
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  color: #555d6a;
+  transition: 0.2s;
+}
+
+
+
+
+
+
+
+
+h2 {
+  text-align: center;
+  
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid blue;
+  margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Vertically center the blockquote */
+  height: auto; /* Adjust the height as needed */
+  padding: 20px; /* Add padding for spacing */
+}
+
+.quote1 {
+  background-color: #d4d5d7;
+  border-left: 5px solid #333; /* Add a left border for emphasis */
+  padding: 20px; /* Add padding for spacing within the quote */
+  font-style: italic; /* Make the text italic to indicate a quote */
+}
+
+.quote1 p {
+  margin: 0; /* Remove default margins for paragraphs inside the quote */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.parent3 {
+  text-align: center; /* Center the content horizontally */
+  padding: 15px; /* Add padding for spacing */
+  background-color: blue;
+  border-radius: 5px;
+  
+}
+
+.container3 {
+  display: inline-block;
+}
+
+
+
+.btn1 {
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  justify-content: end;
+}
+
+
+
+
